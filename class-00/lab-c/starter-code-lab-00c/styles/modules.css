@@ -1,0 +1,46 @@
+/*module*/
+.print {
+  text-decoration: none;
+}
+
+/*module*/
+.print, .date {
+  color: #a9a8a5;
+  font-family: 'Abel', sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+/*module*/
+.recipe {
+  letter-spacing: .1em;
+  font-family: 'Patrick Hand', cursive;
+  color: #666a42;
+  background-image: url("img/list-bg.png");
+}
+
+/*module*/
+.recipe li {
+  font-size: 1.3em;
+  line-height: 31px;
+}
+
+/*module*/
+#logo {
+  color: black;
+  text-decoration: none;
+}
+
+/*module*/
+#slogan {
+  color: #a3a4a2;
+  font-family: 'Abel', sans-serif;
+  font-size: .65em;
+  text-transform: uppercase;
+}
+
+/*module*/
+#logo h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.4em;
+}

@@ -1,0 +1,119 @@
+/*layout*/
+nav {
+  margin-top: 25px;
+}
+
+/*base*/
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/*layout*/
+main p {
+  text-indent: 30px;
+  margin: 20px 0px;
+}
+
+/*layout*/
+aside h3 {
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+/*layout*/
+hr {
+  height: 13px;
+}
+
+/*layout*/
+aside button {
+  padding: 15px 40px;
+}
+
+/*layout*/
+aside {
+  padding-top: 30px;
+  padding-bottom: 60px
+}
+
+/*layout*/
+aside img {
+  float: left;
+}
+
+/*layout*/
+aside p {
+  padding-left: 100px;
+  width: 65%;
+  margin: 0;
+}
+
+/*layout*/
+nav ul {
+  float: right;
+}
+
+/*layout*/
+nav li {
+  float: left;
+  padding-right: 2px;
+}
+
+/*layout*/
+.date {
+  float: left;
+}
+
+/*layout*/
+.print {
+  padding-left: 30px;
+  float: right;
+}
+
+/*layout*/
+.print img {
+  margin-right: 3px;
+}
+
+/*layout*/
+.print, .date {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+
+/*layout*/
+.recipe li {
+  float: left;
+  width: 40%;
+}
+
+/*layout*/
+.recipe {
+  height: 260px;
+  padding: 37px 0 0 60px;
+  margin: 40px 0;
+}
+
+/*layout*/
+#logo {
+  float: left;
+  padding-bottom: 25px;
+}
+
+/*layout*/
+#logo img {
+  float: left;
+}
+
+/*layout*/
+#logo h1 {
+  padding-left: 50px;
+}
+
+/*layout*/
+#slogan {
+  width: 250px;
+  padding-left: 55px;
+}
