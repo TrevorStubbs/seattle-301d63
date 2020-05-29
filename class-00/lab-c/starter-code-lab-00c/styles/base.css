@@ -11,25 +11,17 @@ body {
 }
 
 /*base*/
-nav, article, aside, footer section {
-  margin: 0 auto;
-  width: 900px;
-}
-
-/*base*/
 h2 {
   margin-top: 50px;
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
 }
 
-/*base/layout*/
+/*base*/
 main p {
   color: #333;
   font-size: 1.2em;
   line-height: 1.3em;
-  text-indent: 30px;
-  margin: 20px 0px;
 }
 
 /*base*/
@@ -37,20 +29,24 @@ input {
   font-family: 'Patrick Hand', cursive;
 }
 
-/*base/layout*/
+/*base*/
+hr {
+  clear: both;
+  border: 0;
+  background-image: url('../img/hr.png');
+}
+
+/*base*/
 aside h3 {
-  padding-left: 100px;
   font-size: 1.6em;
-  padding-bottom: 10px;
   color: #555;
 }
 
-/*base/layout*/
+/*base*/
 aside button {
   float: right;
   font-family: 'Abel', sans-serif;
   text-transform: uppercase;
-  padding: 15px 40px;
   background: #b8705a;
   color: #fff;
   font-size: 1.2em;
@@ -69,4 +65,9 @@ footer section p{
   line-height: 1.5em;
   text-align: center;
   color: #aaa;
+}
+
+/*base*/
+aside p {
+  text-indent: 0;
 }
