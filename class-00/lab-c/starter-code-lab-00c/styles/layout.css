@@ -1,12 +1,12 @@
-/*layout*/
-nav {
-  margin-top: 25px;
-}
-
 /*base*/
 nav, article, aside, footer section {
   margin: 0 auto;
   width: 900px;
+}
+
+/*layout*/
+nav {
+  margin-top: 25px;
 }
 
 /*layout*/
