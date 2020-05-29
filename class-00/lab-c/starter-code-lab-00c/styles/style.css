@@ -1,22 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
 
+/*base*/
 * {
   font-family: times;
 }
 
+/*base*/
 body {
   background: #fff;
 }
 
+/*base*/
 nav, article, aside, footer section {
   margin: 0 auto;
   width: 900px;
 }
 
+/*layout*/
 nav {
   margin-top: 25px;
 }
 
+/*layout*/
 #logo {
   float: left;
   padding-bottom: 25px;
@@ -24,16 +29,19 @@ nav {
   text-decoration: none;
 }
 
+/*layout*/
 #logo img {
   float: left;
 }
 
+/*layout*/
 #logo h1 {
   padding-left: 50px;
   font-family: 'Yellowtail', cursive;
   font-size: 2.4em;
 }
 
+/*module*/
 #slogan {
   width: 250px;
   padding-left: 55px;
@@ -43,15 +51,18 @@ nav {
   text-transform: uppercase;
 }
 
+/*layout*/
 nav ul {
   float: right;
 }
 
+/*layout*/
 nav li {
   float: left;
   padding-right: 2px;
 }
 
+/*module*/
 hr {
   clear: both;
   border: 0;
@@ -59,12 +70,14 @@ hr {
   background-image: url('../img/hr.png');
 }
 
+/*base*/
 h2 {
   margin-top: 50px;
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
 }
 
+/*module*/
 .print, .date {
   color: #a9a8a5;
   font-family: 'Abel', sans-serif;
@@ -75,20 +88,24 @@ h2 {
   margin-bottom: 33px;
 }
 
+/*layout*/
 .date {
   float: left;
 }
 
+/*layout*/
 .print {
   text-decoration: none;
   padding-left: 30px;
   float: right;
 }
 
+/*layout*/
 .print img {
   margin-right: 3px;
 }
 
+/*base/layout*/
 main p {
   color: #333;
   font-size: 1.2em;
@@ -97,10 +114,12 @@ main p {
   margin: 20px 0px;
 }
 
+/*base*/
 input {
   font-family: 'Patrick Hand', cursive;
 }
 
+/*module/layout*/
 .recipe {
   letter-spacing: .1em;
   font-family: 'Patrick Hand', cursive;
@@ -111,6 +130,7 @@ input {
   margin: 40px 0;
 }
 
+/*layout*/
 .recipe li {
   float: left;
   width: 40%;
@@ -118,15 +138,18 @@ input {
   line-height: 31px;
 }
 
+/*layout*/
 aside {
   padding-top: 30px;
   padding-bottom: 60px
 }
 
+/*layout*/
 aside img {
   float: left;
 }
 
+/*base/layout*/
 aside h3 {
   padding-left: 100px;
   font-size: 1.6em;
@@ -134,6 +157,7 @@ aside h3 {
   color: #555;
 }
 
+/*layout*/
 aside p {
   padding-left: 100px;
   width: 65%;
@@ -142,6 +166,7 @@ aside p {
 
 }
 
+/*base/layout*/
 aside button {
   float: right;
   font-family: 'Abel', sans-serif;
@@ -153,12 +178,13 @@ aside button {
   border: none;
 }
 
+/*base*/
 section hr {
   border-bottom: 1px solid #eee;
   height: 0;
 }
 
-
+/*base*/
 footer section p{
   padding: 50px 0;
   line-height: 1.5em;
